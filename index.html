@@ -1,0 +1,76 @@
+
+<!doctype html>
+Created on Sat Aug 20 16:19:08 2022
+
+@author: Trymore Ncube
+
+<html>
+<body>
+    <h3>Brain_Stroke_Prediction Form</h3>
+
+<div>
+    <label for="work_type">Work_type</label>
+    <select id="work_type" name="work_type">
+      <option value="0">Private</option>
+      <option value="1">Self-employed</option>
+      <option value="2">Govt_job</option>
+      <option value="3">children</option>
+    </select>
+    <br>
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+      <option value="0">Female</option>
+      <option value="1">Male</option>
+    </select>
+    <br>
+    <label for="ever_married">Ever_married</label>
+    <select id="ever_married" name="ever_married">
+      <option value="0">Yes</option>
+      <option value="1">No</option>
+    </select>
+    <br>
+    <label for="Residence_type">Residence_type</label>
+    <select id="Residence_type" name="Residence_type">
+      <option value="0">Urban</option>
+      <option value="1">Rural</option>
+    </select>
+    <br>
+    <label for="smoking_status">Smoking_status</label>
+    <select id="smoking_status" name="smoking_status">
+      <option value="0">never smoked</option>
+      <option value="1">Unknown</option>
+      <option value="2">formerly smoked</option>
+      <option value="3">smokes</option>
+    </select>
+    <br>
+    <label for="age_group">Age_group</label>
+    <select id="age_group" name="age_group">
+      <option value="0">Toddler:[0-12]</option>
+      <option value="1">Teen:[13-19]</option>
+      <option value="2">Adult:[20-60]</option>
+      <option value="3">Senior:[>60]</option>
+    </select>
+    <br>
+     <label for="hypertension">Hypertension</label>
+    <select id="hypertension" name="hypertension">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <label for="heart_disease">Heart_disease</label>
+    <select id="heart_disease" name="heart_disease">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+      </select>
+    <br>
+    <label for="avg_glucose_level">Avg_glucose_level</label>
+    <input type="text" id="avg_glucose_level" name="avg_glucose_level">[0-999]
+    <br>
+    <label for="bmi">BMI</label>
+    <input type="text" id="bmi" name="bmi">[0-99]
+    <br>
+    <input type="submit" value="Predict">
+  </form>
+</div>
+</body>
+</html>
